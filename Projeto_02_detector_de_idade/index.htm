@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <main>
+        <h1 class="titulo">Verificador de Idade</h1>
+        <section class="container">
+            <div>
+                <p>Ano de nascimento: <input type="number" name="data_nascimento" id="data_nascimento"></p>
+                <p>
+                Sexo: <input type="checkbox" name="sexo_masculino" id="sexo_masculino"> Masculino 
+                      <input type="checkbox" name="sexo_feminino" id="sexo_feminino"> Feminino 
+                </p>
+
+                <input type="button" value="Verificar" onclick="verificar()">
+                <h1 id="texto_idade" class="titulo_imagem">Detectamos uma mulher de 19 anos</h1>
+                <img id="img" src="./assents/adolecente_feminino.jpg" alt="Imagem de genero relacionado a idade e sexo">
+            </div>
+        </section>
+    </main>
+
+    <footer>@Thales Reis<br>@curso em Vídeo</footer>
+</body>
+</html>
